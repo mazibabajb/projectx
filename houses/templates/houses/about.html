@@ -1,0 +1,86 @@
+{% extends 'houses/base.html'  %}
+{% load static %}
+ 
+{% block content %}
+
+  <main id="main">
+
+    <!-- ======= Intro Single ======= -->
+    <section class="intro-single">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="title-single-box">
+              <h1 class="title-single">We House Kings And Queens</h1>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="#">Home</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  About
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Intro Single-->
+
+    <!-- ======= About Section ======= -->
+    <section class="section-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 position-relative">
+            <div class="about-img-box">
+              <img src="{% static 'houses/assets/img/IMG_20210913_080109.jpg' %}" alt="" class="img-fluid">
+            </div>
+            <div class="sinse-box">
+              <h3 class="sinse-title">RentalsByo
+                <span></span>
+                <br> Since 2021
+              </h3>
+              <p>Homes & Offices</p>
+            </div>
+          </div>
+          <div class="col-md-12 section-t8 position-relative">
+            <div class="row">
+              <div class="col-md-6 col-lg-5">
+                <img src="{% static 'houses/assets/img/IMG_20210913_080109.jpg' %}" alt="" class="img-fluid">
+              </div>
+              <div class="col-lg-2  d-none d-lg-block position-relative">
+                <div class="title-vertical d-flex justify-content-start">
+                  <span>RentalsByo Exclusive Property</span>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-5 section-md-t3">
+                <div class="title-box-d">
+                  <h3 class="title-d">Our
+                    <span class="color-d">proper</span> safe
+                    <br> spaces.
+                  </h3>
+                </div>
+                <p class="color-text-a">
+                 To be formal one needs a working space that is attractive and user friendly to both them and their clients. We offer amaizing offices that serves the purpose of a professional business.
+                </p>
+                <p class="color-text-a">
+                  "There is no place like home" but can one call a house that is not secure,clean and without friendly neighbors a home?
+                  We offer you clean,secure and friendly houses that you and your family can call home.
+                </p>
+                <p class="color-text-a">
+                  There are quite a number of places out there that you can use to start your projects. Go on and make those ideas become real projects by choosing amaizing industrial places at RentalsByo.
+                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+  </main><!-- End #main -->
+
+{% endblock content %}
